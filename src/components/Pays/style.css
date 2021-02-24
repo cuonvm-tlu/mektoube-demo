@@ -1,0 +1,13 @@
+.select {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    width: 400px;
+    height: 40px;
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }

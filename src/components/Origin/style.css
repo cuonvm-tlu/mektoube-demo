@@ -1,0 +1,70 @@
+.font {
+    font-family: Avenir Next Condensed;
+}
+
+.styled-select{
+    border: none;
+    background: none;
+    font-size: 16px;
+    height: 34px;
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Avenir Next Condensed;
+    padding-left: 0px;
+    padding-bottom: 0px;
+ }
+
+ .border-red{
+    border-bottom: solid red 1.5px;
+ }
+
+ .border-white{
+    border-bottom: solid white 1.5px;
+ }
+
+ select:focus {
+   outline: 0;
+ }
+
+ input:focus {
+   outline: 0;
+ }
+
+
+
+ /* --------------------------------- */
+ .styled-select-white{
+   border-bottom: solid white 1.5px;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   background: none;
+   font-size: 16px;
+   height: 34px;
+   width: 100%;
+   color: white;
+   font-weight: 400;
+   font-size: 15px;
+   font-family: Avenir Next Condensed;
+   padding-left: 0px;
+   padding-bottom: 0px;
+}
+
+.styled-select-red{
+   border-bottom: solid red 1.5px;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   background: none;
+   font-size: 16px;
+   height: 34px;
+   width: 100%;
+   color: white;
+   font-weight: 400;
+   font-size: 15px;
+   font-family: Avenir Next Condensed;
+   padding-left: 0px;
+   padding-bottom: 0px;
+}

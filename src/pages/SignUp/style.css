@@ -1,0 +1,218 @@
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  height: 100%;
+  font-family: Avenir Next Condensed;
+  letter-spacing: 1px;
+
+}
+
+
+.form {  
+  max-width: 400px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.signup-button {
+  border-style: none;
+  height: 60px;
+  font-size: 15px;
+  border-radius: 12px;
+  margin-top: 130px;
+  color: #3385ff;
+  width: 100%;
+  background-color: white;
+  color: white;
+  width: 100%;
+  background-color: #6699ff;
+}
+.signup-h2 {
+  text-align: center;
+  font-weight: 50;
+  color: white;
+  margin-top: 0px;
+  padding-top: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+ 
+a {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  font-size: 12px;
+  color: #f2f2f2;
+  font-weight: 100;
+}
+
+.signup-full-height {
+  height: 100%;
+}
+
+.background-color {
+  background-image: linear-gradient(45deg, #00C1FF 0%, #2524FF 100%);
+}
+
+.signup-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.signup-container-condition1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.signup-container-condition2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+/* ------------------------------------- date of birth  -------------------------------- */
+.signup-dob-style {
+  line-height: 2;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 400;
+  font-size: 15px,
+}
+/* ------------------------------------- date of birth  -------------------------------- */
+
+/* -------------------------------------  Radio -------------------------------- */
+.input-white-border[type=radio] {
+  border: 1px solid #fff;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  border-radius: 7px;
+  width: 2em; height: 2em;
+}
+
+.input-red-border[type=radio] {
+  border: 1px solid red;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  border-radius: 7px;
+  width: 2em; height: 2em;
+}
+
+input[type=radio]:checked {
+  /* background: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat center center; */
+  background:url(white-check.png) no-repeat;
+  background-position: center;
+  background-size: 9px 9px;
+  
+}
+
+input[type=radio]:focus {
+  outline-color: transparent;
+}
+
+.signup-gender-label-style {
+  padding-top: 1px;
+  margin-right: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 2;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: white;
+}
+/* -------------------------------------  Radio -------------------------------- */
+
+
+
+/* -------------------------------------  Check box -------------------------------- */
+.input-checkbox-white[type=checkbox] {
+  border: 1px solid #fff;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  border-radius: 7px;
+  width: 2em; height: 2em;
+}
+
+.input-checkbox-red[type=checkbox] {
+  border: 1px solid red;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  border-radius: 7px;
+  width: 2em; height: 2em;
+}
+
+
+input[type=checkbox]:checked {
+  /* background: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat center center; */
+  background:url(white-check.png) no-repeat;
+  background-position: center;
+  background-size: 9px 9px;
+  
+}
+
+input[type=checkbox]:focus {
+  outline-color: transparent;
+}
+
+.signup-checkbox-label-style1 {
+  width: 340px;
+  padding-top: 0px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  color: white;
+}
+
+.signup-checkbox-label-style2 {
+  width: 340px;
+  padding-top: 0px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 2;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* -------------------------------------  Check box -------------------------------- */
+select#xyz {
+  /* -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  /* background-image: url(../images/select-arrow.png),  */
+    /* -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5); */ 
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: none;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

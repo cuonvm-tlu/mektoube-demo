@@ -1,0 +1,12 @@
+.button  {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 0px;
+    color:white;
+    width: 100%;
+    background-color:#ff6666;
+    border-style: none;
+    height: 60px;
+    font-size: 15px;
+}
